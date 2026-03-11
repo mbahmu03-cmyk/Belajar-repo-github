@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HTM125 Platform</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:#000;
+color:#fff;
+}
+
+/* HEADER */
+
+header{
+background:#000;
+border-bottom:2px solid gold;
+padding:15px 20px;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+flex-wrap:wrap;
+}
+
+.logo{
+color:gold;
+font-size:26px;
+font-weight:bold;
+}
+
+.menu a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+font-size:15px;
+}
+
+.menu a:hover{
+color:gold;
+}
+
+/* HERO */
+
+.hero{
+text-align:center;
+padding:80px 20px;
+background:linear-gradient(#000,#111);
+}
+
+.hero h1{
+font-size:40px;
+color:gold;
+margin-bottom:20px;
+}
+
+.hero p{
+max-width:650px;
+margin:auto;
+font-size:18px;
+}
+
+/* BUTTON */
+
+.btn{
+display:inline-block;
+margin-top:25px;
+padding:12px 30px;
+background:gold;
+color:black;
+font-weight:bold;
+text-decoration:none;
+border-radius:6px;
+}
+
+/* SECTION */
+
+.section{
+padding:60px 20px;
+max-width:1100px;
+margin:auto;
+}
+
+.section h2{
+text-align:center;
+color:gold;
+margin-bottom:40px;
+}
+
+/* GRID */
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:#111;
+padding:25px;
+border-radius:10px;
+border:1px solid gold;
+text-align:center;
+}
+
+.card h3{
+color:gold;
+margin-bottom:10px;
+}
+
+/* CUSTOMER SERVICE */
+
+.cs{
+text-align:center;
+padding:60px 20px;
+background:#111;
+}
+
+.cs h2{
+color:gold;
+margin-bottom:15px;
+}
+
+/* FOOTER */
+
+footer{
+background:#000;
+border-top:2px solid gold;
+text-align:center;
+padding:25px;
+font-size:14px;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:28px;
+}
+
+.menu{
+margin-top:10px;
+}
+
+.menu a{
+margin:10px;
+display:inline-block;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<nav>
+
+<div class="logo">HTM125</div>
+
+<div class="menu">
+<a href="#">Home</a>
+<a href="#">Platform</a>
+<a href="#">Promo</a>
+<a href="#">Support</a>
+</div>
+
+</nav>
+
+</header>
+
+<section class="hero">
+
+<h1>Platform Online Premium</h1>
+
+<p>
+Selamat datang di HTM125. Nikmati pengalaman platform online yang cepat,
+aman, dan mudah diakses dari semua perangkat.
+</p>
+
+<a class="btn" href="#">Gabung Sekarang</a>
+
+</section>
+
+<section class="section">
+
+<h2>Kelebihan Platform</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Server Stabil</h3>
+<p>Platform berjalan dengan server yang cepat dan stabil.</p>
+</div>
+
+<div class="card">
+<h3>Mobile Friendly</h3>
+<p>Website dapat digunakan dengan sempurna di semua device.</p>
+</div>
+
+<div class="card">
+<h3>Keamanan Tinggi</h3>
+<p>Sistem keamanan modern untuk melindungi data pengguna.</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<h2>Promosi Terbaru</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Bonus Member Baru</h3>
+<p>Dapatkan bonus menarik ketika pertama kali bergabung.</p>
+</div>
+
+<div class="card">
+<h3>Event Mingguan</h3>
+<p>Ikuti berbagai event dan promo menarik setiap minggu.</p>
+</div>
+
+<div class="card">
+<h3>Reward Loyalitas</h3>
+<p>Semakin aktif bermain semakin besar hadiah yang didapat.</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="cs">
+
+<h2>Customer Service 24 Jam</h2>
+
+<p>Tim support kami siap membantu kapan saja.</p>
+
+<a class="btn" href="#">Hubungi Sekarang</a>
+
+</section>
+
+<footer>
+
+<p>© 2026 HTM125 Platform. All Rights Reserved</p>
+
+</footer>
+
+</body>
+</html>
